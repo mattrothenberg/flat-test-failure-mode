@@ -1,5 +1,5 @@
 ---
-title: Flat Data Error
+title: Flat Data Error – {{ env.URL }}
 ---
 
-Error.
+Error fetching data from {{ env.URL }}
