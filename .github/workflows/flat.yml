@@ -34,7 +34,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          milestone: 1
-          update_existing: true
-          search_existing: all
+          # update_existing: true
+          # search_existing: all
 
