@@ -32,7 +32,7 @@ jobs:
         if: failure()
         uses: JasonEtco/create-an-issue@v2
         env:
-          URL: "https://api.coindesk.com/v2/bp[aksdkaosdoaskdi/currentprice.json"
+          URL: "https://api.coindesk.com/v2/bpi/currentprice.json"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           update_existing: true
