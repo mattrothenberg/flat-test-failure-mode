@@ -1,5 +1,5 @@
 ---
-title: Flat Data Error: 
+title: Flat Data Error
 labels: bug
 ---
 
